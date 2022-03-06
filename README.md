@@ -1,1 +1,3 @@
 # BasicEventDummyRepo
+
+Hello everyone!
