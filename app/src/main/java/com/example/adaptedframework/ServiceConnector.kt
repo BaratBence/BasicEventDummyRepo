@@ -5,7 +5,10 @@ import android.content.ServiceConnection
 import android.os.IBinder
 import android.os.Messenger
 
-class MyServiceConnection(messenger: Messenger?, isBind: Boolean): ServiceConnection {
+/**
+ * Connects or disconnects the service from the binded view
+ */
+class ServiceConnector(messenger: Messenger?, isBind: Boolean): ServiceConnection {
     var messenger: Messenger?=null
     var isBind = false
 
